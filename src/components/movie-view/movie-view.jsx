@@ -1,4 +1,5 @@
-export const MovieView = ({ movie, onBackClick }) => {
+const MovieView = ({ movie, onBackClick }) => {
+  console.log(movie);
   return (
     <div>
       <div>
@@ -20,3 +21,4 @@ export const MovieView = ({ movie, onBackClick }) => {
     </div>
   );
 };
+export default MovieView;
